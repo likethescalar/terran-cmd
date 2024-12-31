@@ -9,3 +9,4 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - ~/.bash_history:/root/.bash_history
       - ~/.aws:/root/.aws:ro
+      - ~/.ssh:/root/.ssh:ro
