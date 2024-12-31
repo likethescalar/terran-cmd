@@ -3,5 +3,15 @@
 	"service": "devcontainer",
 	"workspaceFolder": "/workspace",
 	"shutdownAction": "stopCompose",
-	//"remoteUser": "vscode"
+	"remoteUser": "root",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"ms-azuretools.vscode-docker",
+				"hashicorp.terraform",
+				"ms-python.python"
+			]
+		}
+	}
 }

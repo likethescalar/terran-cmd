@@ -1,2 +1,3 @@
 # terran-cmd
-Sandbox for learning Terraform
+
+Initial project
